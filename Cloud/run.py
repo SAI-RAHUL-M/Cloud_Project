@@ -1,3 +1,3 @@
-Import webbrowser 
-  
-webbrowser.open_new_tab('index.html')
+import webbrowser
+url = 'index.html'
+webbrowser.open(url, new=2)
